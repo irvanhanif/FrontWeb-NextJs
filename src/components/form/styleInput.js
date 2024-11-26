@@ -1,0 +1,42 @@
+export const inputClassNames = {
+  base: "data-[has-label=true]:mt-[calc(theme(fontSize.small)+12px)]",
+  label: [
+    "text-default-100",
+    "group-data-[filled-within=true]:text-default-100",
+    "group-data-[filled=true]:text-default-100",
+  ],
+  input: [
+    "bg-transparent",
+    "group-data-[has-value=true]:text-white/90",
+    "placeholder:text-white/60",
+  ],
+  segment: [
+    "focus:bg-default-200/50",
+    "data-[editable=true]:data-[placeholder=true]:text-white/60",
+    "data-[editable=true]:text-white",
+    "data-[editable=true]:hover:text-white/60",
+    "data-[editable=true]:focus:text-white/60",
+    "text-white/60",
+  ],
+  innerWrapper: ["bg-transparent", "text-white/60"],
+  value: ["group-data-[has-value=true]:text-white", "text-white/60"],
+  inputWrapper: [
+    "shadow-xl",
+    "bg-default-200/50",
+    "backdrop-blur-xl",
+    "backdrop-saturate-200",
+    "hover:bg-default-200/50",
+    "group-data-[hover=true]:bg-default-200/50",
+    "focus-within:hover:bg-default-200/50",
+    "!cursor-text",
+  ],
+  selectorButton: "text-white/60",
+  trigger: [
+    "shadow-xl",
+    "bg-default-200/50",
+    "backdrop-blur-xl",
+    "backdrop-saturate-200",
+    "hover:bg-default-200/70",
+    "data-[hover=true]:bg-default-200/50",
+  ],
+};
